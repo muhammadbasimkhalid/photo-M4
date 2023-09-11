@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+
+}
+.navbar-brand:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.nav-link{
+    color: white;
+
+    
+}
+.b{z-index: -1;
+
+}
+.nav-link:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#home{
+    color: white;
+    height: 600px;
+    
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('./pictures/camera-7726802_1280.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home::before{
+    height: 715px; 
+}
+.h-primary{
+    font-size: 80px;
+
+}
+.p-primary{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.cards{
+    margin: 135px 120px;
+    margin-bottom: 70px;
+}
+.card1{
+    background-color: rgb(227, 227, 227);
+}
+.card-img-top{
+    height: 50px;
+    width: 50px;
+}
+.col-md-8 {
+    flex: 0 0 auto;
+    width: 54.666667%;
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 44.333333%;
+}
+.col img{
+    aspect-ratio: 10/16 ;
+    object-fit: cover;
+    height: 164px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 305px;
+
+}
+.col img:hover{
+    opacity: 0.5;
+    scale: 1.1;
+    transition-duration: 1s;
+
+}
+.card-1{
+    background: url("./pictures/6b9ce6cff391bfca08f13172b5f7775b.jpg") no-repeat center center/cover;
+    height: 850px;
+    width: 100%;
+    object-fit: fill;
+
+
+
+
+    transition-duration: 1.2s;
+    
+    opacity: 0.9;
+}
+.card-1:hover{
+    opacity: 0.5;
+   
+ 
+    cursor: pointer;
+    
+}
+.card-2{
+    background: url("./pictures/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg") no-repeat center center/cover ;
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.card-2:hover{
+    opacity: 0.5;
+    transition-duration: 1.2s;
+ 
+    cursor: pointer;
+    
+}
+.card-3{
+    background: url("./pictures/tim-swaan-eOpewngf68w-unsplash.jpg")  no-repeat center center/cover;
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.card-3:hover{
+    opacity: 0.5;
+    transition-duration: 1.2s;
+ 
+    cursor: pointer;
+    
+}
+.card-4{
+    background: url("./pictures/daniel-roe-lpjb_UMOyx8-unsplash.jpg") no-repeat center center/cover ;
+    height: 850px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+.card-4:hover{
+    opacity: 0.5;
+    transition-duration: 1.2s;
+ 
+    cursor: pointer;
+    
+}
+.card-head{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    width: 75%;
+    
+
+
+}
+.card-text{
+    color: #ffffff;
+
+}
+.card-para{
+    
+    opacity: 1;
+    width: 75%;
+    font-weight: bolder;
+    margin: 30px 40px;
+
+}
+.btn1{
+    opacity: 1;
+    font-weight: bolder;
+
+}
+.card-body{
+    margin-bottom: 90px;
+}
+.chat{
+    width: 100%;
+}
+.progress{
+    height: 3px;
+    margin: 28px 0px;
+}
+#subscription::before{
+    content: " ";
+    background: url("./pictures/luca-bravo-O453M2Liufs-unsplash.jpg") no-repeat center center/cover;
+    height: 1010px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.9;
+}
+.type{
+    height: 375px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.back{
+    margin: 2px 2px;
+}
+.subs {
+    margin-top: 75px;
+ 
+}
+.card {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.intro{
+    margin-top: 233px;
+}
+.intro img{
+    border-radius: 200px;
+}
+.show1 img{
+    height: 385px;
+}
+.followus{
+    height: 400px;
+}
+.col1 img {
+    width: 134px;
+    margin: 10px 2px;
+    height: 140px;
+}
+.btn-dark{
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    margin-bottom: 305px;
+}
+.maps img{
+    width: 1519px;
+}
+
+
+
+
+/* animations */
+/* .card-ani{
+    position: relative;
+    animation: new;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes new {
+    from{
+        margin-top:600px ;
+        
+    }
+    to{
+        margin-top:600px ;
+
+    }
+    
+} */
+/* .card-ani{
+    transition: all 5s;
+    transform: translateY(-100px);
+    
+} */
+#home{
+    animation: newani;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes newani {
+    from{ margin-top: 600px;
+        opacity: 0;
+        
+    }
+    to{
+        from{ 
+            margin-top: -600px;
+            opacity: 1;
+
+    }
+    
+}
+}

@@ -1,0 +1,19 @@
+# MTL Exporter v1.0 by Seungwoo Oh at CLO - Virtual Fashion Inc.
+newmtl SwatchOn_QL-005254_Double-faced_ponte-interlock_Jersey_FRONT_2713
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.045000 0.045000 0.045000
+Ns 9.901810
+illum 2
+map_Ka E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_diffuse_1001.png
+map_Kd E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_diffuse_1001.png
+map_bump E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_normal_1001.png
+newmtl Cotton_14_Wale_Corduroy_FRONT_2706
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.079500 0.079500 0.079500
+Ns 33.752510
+illum 2
+map_Ka E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_diffuse_1001.png
+map_Kd E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_diffuse_1001.png
+map_bump E:/1. Client Work/Mock pack vol 3/Hoodie no hanger/Hoodie_normal_1001.png
